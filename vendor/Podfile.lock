@@ -20,13 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - NanoStore (2.6.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.0)
+  - NanoStore
+  - NanoStore (~> 2.6.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  NanoStore: a79dfd7c141d9cc0fc826661f227edcf43375d10
 
-PODFILE CHECKSUM: 569b4c0904714dfbb4c1b3ceab18b02e14907117
+PODFILE CHECKSUM: e0867510baef110e207fd4e570056f2fed2351c7
 
 COCOAPODS: 1.0.1

@@ -4,15 +4,15 @@ class User
     App::Persistence['token'] = token
   end
 
-  def load_username
+  def self.load_username
     App::Persistence['username']
   end
 
-  def load_token
+  def self.load_token
     App::Persistence['token']
   end
 
-  def reset
+  def self.reset
     App::Persistence['username'] = nil
     App::Persistence['token'] = nil
   end

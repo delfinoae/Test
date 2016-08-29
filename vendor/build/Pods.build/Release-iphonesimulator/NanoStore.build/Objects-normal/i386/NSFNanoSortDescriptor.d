@@ -1,0 +1,17 @@
+dependencies: \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoSortDescriptor.m \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/Target\ Support\ Files/NanoStore/NanoStore-prefix.pch \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoSortDescriptor.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoGlobals.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Advanced/NSFOrderedDictionary.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Private/NSFNanoObject_Private.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoObject.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NanoStore.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoObjectProtocol.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoStore.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoPredicate.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoExpression.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoSearch.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Advanced/NSFNanoResult.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Public/NSFNanoBag.h \
+  /Users/itsmobile/Dropbox/Dev/05.Mobile/Test/vendor/Pods/NanoStore/Classes/Advanced/NSFNanoEngine.h

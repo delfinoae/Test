@@ -25,10 +25,21 @@ class TransactionsVC < UIViewController
 
     @transactions = []
     @dates = []
-    Transaction.all() do |trans, dates|
-      @transactions = trans
-      @dates = dates
-      tableView.reloadData()
+
+    Connection.hasInternet() do |hasInternet|
+      if ( hasInternet )
+        Transaction.request() do |trans, dates|
+          @transactions = trans
+          @dates = dates
+          tableView.reloadData()
+        end
+      else
+        Transaction.all() do |trans, dates|
+          @transactions = trans
+          @dates = dates
+          tableView.reloadData()
+        end
+      end
     end
   end
 
@@ -58,7 +69,9 @@ class TransactionsVC < UIViewController
   end
 
   def numberOfSectionsInTableView(tableView)
-    return @dates.count
+    if ( @dates != nil )
+      return @dates.count
+    end
   end
 
   def tableView(tableView, titleForHeaderInSection: section)

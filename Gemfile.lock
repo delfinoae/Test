@@ -58,6 +58,8 @@ GEM
     motion-cocoapods (1.8.1)
       cocoapods (>= 1.0.0)
     motion-require (0.2.0)
+    nano-store (0.6.3)
+      motion-cocoapods (>= 1.2.1)
     nap (1.1.0)
     netrc (0.7.8)
     rake (11.2.2)
@@ -80,6 +82,7 @@ DEPENDENCIES
   bubble-wrap-http
   ib
   motion-cocoapods
+  nano-store
   rake
 
 BUNDLED WITH

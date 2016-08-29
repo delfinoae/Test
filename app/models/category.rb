@@ -11,14 +11,36 @@ class Category
     }
   end
 
-  def self.all(&block)
+  def self.request(&block)
     BW::HTTP.get(Constants.API_ENDPOINT_CATEGORIES, { headers: Category.headers }) do |response|
       if response.ok?
         json = BW::JSON.parse(response.body.to_str)
         categories = json.map { |category| Category.new(category) }
+        CategoryDB.add_categories(categories)
         block.call(categories)
       end
     end
+  end
+
+  def self.all(&block)
+    categories_db = CategoryDB.all()
+    categories = self.parseDB(categories_db)
+    block.call(categories)
+  end
+
+  def self.parseDB(categories_db)
+    categories = []
+    for cat in categories_db
+      attr = {
+          "id" => cat.id,
+          "name" => cat.name,
+          "color" => cat.color
+      }
+      category = Category.new(attr)
+      categories << category
+    end
+
+    return categories
   end
 
   def self.headers

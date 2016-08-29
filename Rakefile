@@ -2,6 +2,8 @@
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
 require 'bubble-wrap'
+require 'motion-cocoapods'
+require 'nano-store'
 
 begin
   require 'bundler'
@@ -12,7 +14,7 @@ end
 Motion::Project::App.setup do |app|
   app.name = 'Test'
 
-  # app.pods do
-  #   pod 'Money'
-  # end
+  app.pods do
+    pod 'NanoStore'
+  end
 end

@@ -15,4 +15,14 @@ class Connection
       block.call(response)
     end
   end
+
+  def self.hasInternet(&block)
+    BubbleWrap::HTTP.get(Constants.CONN_IP_TEST) do |response|
+      if response.ok?
+        block.call(true)
+      else
+        block.call(false)
+      end
+    end
+  end
 end
