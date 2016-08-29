@@ -2,47 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ac7ee1-9c93-4738-bddd-873e00ba7ba2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/category_db.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/transaction_db.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/.build/libAFNetworking.a" afterPath="$PROJECT_DIR$/vendor/Pods/.build/libAFNetworking.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/.build/libPods-RubyMotion.a" afterPath="$PROJECT_DIR$/vendor/Pods/.build/libPods-RubyMotion.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/build-iPhoneSimulator/libAFNetworking.a" afterPath="$PROJECT_DIR$/vendor/Pods/build-iPhoneSimulator/libAFNetworking.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-all-non-framework-target-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-all-non-framework-target-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-all-target-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-all-target-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-project-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking-project-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/AFNetworking.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/Objects-normal/i386/libAFNetworking.a" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/Objects-normal/i386/libAFNetworking.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/Objects-normal/x86_64/libAFNetworking.a" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/Objects-normal/x86_64/libAFNetworking.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/dgph" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/AFNetworking.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Objects-normal/i386/libPods-RubyMotion.a" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Objects-normal/i386/libPods-RubyMotion.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Objects-normal/x86_64/libPods-RubyMotion.a" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Objects-normal/x86_64/libPods-RubyMotion.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-all-non-framework-target-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-all-non-framework-target-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-all-target-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-all-target-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-project-headers.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion-project-headers.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion.hmap" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/Pods-RubyMotion.hmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/dgph" afterPath="$PROJECT_DIR$/vendor/build/Pods.build/Release-iphonesimulator/Pods-RubyMotion.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/Ahw-CW-aPX-view-7aO-l0-LD8.nib" afterPath="$PROJECT_DIR$/resources/main.storyboardc/Ahw-CW-aPX-view-7aO-l0-LD8.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/LeN-v6-gaI-view-v59-yH-hPb.nib" afterPath="$PROJECT_DIR$/resources/main.storyboardc/LeN-v6-gaI-view-v59-yH-hPb.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/LoginVC.nib" afterPath="$PROJECT_DIR$/resources/main.storyboardc/LoginVC.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/MainVC.nib" afterPath="$PROJECT_DIR$/resources/main.storyboardc/MainVC.nib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/UINavigationController-OkW-bp-JIM.nib" afterPath="$PROJECT_DIR$/resources/main.storyboardc/UINavigationController-OkW-bp-JIM.nib" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app_delegate.rb" afterPath="$PROJECT_DIR$/app/app_delegate.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/login_vc.rb" afterPath="$PROJECT_DIR$/app/controllers/login_vc.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/transactions_cell.rb" afterPath="$PROJECT_DIR$/app/controllers/transactions_cell.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/transactions_vc.rb" afterPath="$PROJECT_DIR$/app/controllers/transactions_vc.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/category.rb" afterPath="$PROJECT_DIR$/app/models/category.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/transaction.rb" afterPath="$PROJECT_DIR$/app/models/transaction.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/connection.rb" afterPath="$PROJECT_DIR$/app/utils/connection.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/constants.rb" afterPath="$PROJECT_DIR$/app/utils/constants.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Podfile.lock" afterPath="$PROJECT_DIR$/vendor/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/vendor/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/xcuserdata/itsmobile.xcuserdatad/xcschemes/Pods-RubyMotion.xcscheme" afterPath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/xcuserdata/itsmobile.xcuserdatad/xcschemes/Pods-RubyMotion.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/xcuserdata/itsmobile.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/vendor/Pods/Pods.xcodeproj/xcuserdata/itsmobile.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterPath="$PROJECT_DIR$/vendor/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.markdown" afterPath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.plist" afterPath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion.debug.xcconfig" afterPath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion.release.xcconfig" afterPath="$PROJECT_DIR$/vendor/Pods/Target Support Files/Pods-RubyMotion/Pods-RubyMotion.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/view_utils.rb" afterPath="$PROJECT_DIR$/app/utils/view_utils.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboard" afterPath="$PROJECT_DIR$/resources/main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/main.storyboardc/Info.plist" afterPath="$PROJECT_DIR$/resources/main.storyboardc/Info.plist" />
     </list>
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,21 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login_vc.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/login_vc.rb">
+      <file leaf-file-name="transactions_cell.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/transactions_cell.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transactions_vc.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/transactions_vc.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            <state relative-caret-position="257">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -86,18 +48,8 @@
       <file leaf-file-name="transaction.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/transaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transaction_db.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/transaction_db.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="720">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -115,8 +67,6 @@
         <option value="$PROJECT_DIR$/app/api_client.rb" />
         <option value="$PROJECT_DIR$/app/utils/api_client.rb" />
         <option value="$PROJECT_DIR$/app/utils/utils.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/transactions_cell.rb" />
-        <option value="$PROJECT_DIR$/app/utils/view_utils.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/models/category_db.rb" />
@@ -124,12 +74,14 @@
         <option value="$PROJECT_DIR$/app/app_delegate.rb" />
         <option value="$PROJECT_DIR$/app/utils/reachability.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/transactions_vc.rb" />
         <option value="$PROJECT_DIR$/app/utils/constants.rb" />
         <option value="$PROJECT_DIR$/app/utils/connection.rb" />
-        <option value="$PROJECT_DIR$/app/models/transaction.rb" />
-        <option value="$PROJECT_DIR$/app/models/transaction_db.rb" />
         <option value="$PROJECT_DIR$/app/controllers/login_vc.rb" />
+        <option value="$PROJECT_DIR$/app/utils/view_utils.rb" />
+        <option value="$PROJECT_DIR$/app/models/transaction_db.rb" />
+        <option value="$PROJECT_DIR$/app/models/transaction.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/transactions_vc.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/transactions_cell.rb" />
       </list>
     </option>
   </component>
@@ -413,12 +365,12 @@
       <option name="presentableId" value="Default" />
       <updated>1472397248717</updated>
       <workItem from="1472397251587" duration="15226000" />
-      <workItem from="1472476715470" duration="23394000" />
+      <workItem from="1472476715470" duration="28115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38620000" />
+    <option name="totallyTimeSpent" value="43341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1360" height="684" extended-state="6" />
@@ -485,22 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/transactions_cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app_delegate.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -533,14 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils/view_utils.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -565,34 +493,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/transactions_vc.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/login_vc.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/transaction.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/transaction_db.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        <state relative-caret-position="165">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/login_vc.rb">
+    <entry file="file://$PROJECT_DIR$/app/utils/view_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/transactions_vc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="135" column="49" selection-start-line="133" selection-start-column="5" selection-end-line="135" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/transaction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/transactions_cell.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -19,8 +19,13 @@ class Transaction
     }
   end
 
-  def self.request(&block)
-    BW::HTTP.get(Constants.API_ENDPOINT_TRANSACTIONS, { headers: Transaction.headers }) do |response|
+  def self.request(period, &block)
+    month = ViewUtils.monthStringFromDate(period)
+    year = ViewUtils.yearStringFromDate(period)
+    lastDay = ViewUtils.lastDayStringFromDate(period)
+    startDate = year + "-" + month + "-" + "01"
+    endDate = year + "-" + month + "-" + lastDay
+    BW::HTTP.get(Constants.API_ENDPOINT_TRANSACTIONS + "?" + startDate + "&" + endDate, { headers: Transaction.headers }) do |response|
       if response.ok?
         json = BW::JSON.parse(response.body.to_str)
         transactions = json.map { |transaction| Transaction.new(transaction) }
@@ -37,7 +42,7 @@ class Transaction
     end
   end
 
-  def self.all(&block)
+  def self.all(period, &block)
     transactions = []
     dates = []
 
@@ -68,10 +73,6 @@ class Transaction
 
     transactions = Transaction.setup(categories, transactions)
     return transactions
-  end
-
-  def self.transactionsByPeriod(period, &block)
-    # TO DO
   end
 
   def self.headers
