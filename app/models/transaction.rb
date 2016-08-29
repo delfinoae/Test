@@ -1,8 +1,8 @@
 class Transaction
-  PROPERTIES = [:id, :description, :date, :paid, :amount_cents, :total_installments, :installment,
+  PROPERTIES = [:id, :desc, :date, :paid, :amount_cents, :total_installments, :installment,
                 :recurring, :account_id, :category_id, :payee_id, :notes, :attachments_count,
                 :credit_card_id, :credit_card_invoice_id, :paid_credit_card_id, :paid_credit_card_invoice_id,
-                :oposite_transaction_id, :oposite_account_id, :created_at, :updated_at]
+                :oposite_transaction_id, :oposite_account_id, :created_at, :updated_at, :category]
 
   PROPERTIES.each { |prop|
     attr_accessor prop
@@ -10,7 +10,12 @@ class Transaction
 
   def initialize(attributes = {})
     attributes.each { |key, value|
-      self.send("#{key}=", value) if PROPERTIES.member? key
+      # I have to use this IF, because "description" field cannot be used in objc
+      if ( key == "description" )
+        self.send("desc=", value)
+      else
+        self.send("#{key}=", value)
+      end
     }
   end
 
@@ -18,27 +23,54 @@ class Transaction
     BW::HTTP.get(Constants.API_ENDPOINT_TRANSACTIONS, { headers: Transaction.headers }) do |response|
       if response.ok?
         json = BW::JSON.parse(response.body.to_str)
-        transactionsData = json[:data][:transactions] || []
-        transactions = transactionsData.map { |transaction| Transaction.new(transaction) }
-        block.call(transactions)
+        transactions = json.map { |transaction| Transaction.new(transaction) }
+
+        Category.all() do |data|
+          categories = data
+          transactions = Transaction.setup(categories, transactions)
+          dates = Transaction.datesFrom(transactions)
+          block.call(transactions, dates)
+        end
+
       end
     end
   end
 
   def self.transactionsByPeriod(period, &block)
-    BW::HTTP.get(Constants.API_ENDPOINT_TRANSACTIONS + "?start-date=___&end-date=___", { headers: Transaction.headers }) do |response|
-      if response.ok?
-        json = BW::JSON.parse(response.body.to_str)
-        transactionsData = json[:data][:transactions] || []
-        transactions = transactionsData.map { |transaction| Transaction.new(transaction) }
-        block.call(transactions)
-      end
-    end
+    # TO DO
   end
 
   def self.headers
     {
         'Authorization' => App::Persistence['authValue']
     }
+  end
+
+  def setCategory(category)
+    self.send("category=", category)
+  end
+
+  def self.setup(categories, transactions)
+    transactions.each do |transaction|
+      category = categories.find { |category| category.id == transaction.category_id }
+      transaction.setCategory(category)
+    end
+
+    # Order by date
+    transactions = transactions.sortedArrayUsingComparator(lambda do |first, second|
+        first.date.compare(second.date)
+      end
+    )
+
+    return transactions
+  end
+
+  def self.datesFrom(transactions)
+    dates = []
+
+    transactions.each do |trans|
+      dates << trans.date
+    end
+    return dates.uniq
   end
 end

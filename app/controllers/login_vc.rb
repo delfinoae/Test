@@ -7,6 +7,9 @@ class LoginVC < UIViewController
 
   # IB - Start
   def didTouchLoginButton(sender)
+    login_textField.text = "amanda.lemos@acad.pucrs.br"
+    pwd_textField.text = "d6d8fe7572c60bb4c4ec29ddb0bf7a5189efe4e9"
+
     if ( login_textField.text.length == 0 ||
         pwd_textField.text.length == 0)
       ViewUtils.showMessage(Constants.MSG_USER_PWD_INVALID)

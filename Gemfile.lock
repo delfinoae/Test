@@ -79,6 +79,7 @@ DEPENDENCIES
   bubble-wrap (~> 1.9.4)
   bubble-wrap-http
   ib
+  motion-cocoapods
   rake
 
 BUNDLED WITH
