@@ -1,4 +1,5 @@
 class AppDelegate
+
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     storyboard = UIStoryboard.storyboardWithName("main", bundle: nil)
 
