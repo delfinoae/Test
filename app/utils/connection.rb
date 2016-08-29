@@ -5,6 +5,8 @@ class Connection
     authData = authStr.dataUsingEncoding(NSUTF8StringEncoding)
     authValue = "Basic " + authData.base64Encoding
 
+    App::Persistence['authValue'] = authValue
+
     headers = {
         'Authorization' => authValue
     }

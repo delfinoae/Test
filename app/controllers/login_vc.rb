@@ -25,6 +25,16 @@ class LoginVC < UIViewController
   end
   # IB - End
 
+  # View Life Cycle
+  def viewDidLoad
+    super
+
+    self.navigationController.navigationBarHidden = true
+
+    login_button.layer.cornerRadius = 15.0
+  end
+
+  # Actions
   def goToMain(sender)
     performSegueWithIdentifier("goToMain", sender: sender)
   end
